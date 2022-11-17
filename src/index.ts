@@ -1,6 +1,6 @@
 import { debounce, Options } from "ts-debounce"
 import Vue from "vue"
-import { createDecorator } from "vue-class-component"
+import { createDecorator, VueDecorator } from "vue-class-component"
 
 export type DebounceOptions =
   | number
@@ -27,7 +27,7 @@ type VueWithIndex = Vue & { [key: string]: unknown }
  *   ...
  * }
  */
-export function Debounce(options: DebounceOptions) {
+export function Debounce(options: DebounceOptions): VueDecorator {
   return createDecorator((component, handler) => {
     if (!component.methods) throw new Error("This decorator must be used on a vue component method.")
 

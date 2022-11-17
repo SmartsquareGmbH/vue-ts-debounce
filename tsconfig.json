@@ -2,11 +2,13 @@
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "noImplicitAny": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true,
+    "declaration": true,
     "strict": true,
     "outDir": "dist",
     "skipLibCheck": true

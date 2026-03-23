@@ -1,5 +1,8 @@
 # vue-ts-debounce [![](https://github.com/SmartsquareGmbH/vue-ts-debounce/workflows/CI/badge.svg)](https://github.com/SmartsquareGmbH/vue-ts-debounce/actions?query=workflow%3ACI) [![](https://badgen.net/npm/v/vue-ts-debounce)](https://www.npmjs.com/package/vue-ts-debounce)
 
+> [!WARNING]
+> Deprecated and unmaintained. May still work, but not recommended for new projects since [Vue is long EOL](https://v2.vuejs.org/eol/).
+
 Debounce decorator for Vue.js 2 using [`vue-class-component`](https://github.com/vuejs/vue-class-component). Based
 on [`ts-debounce`](https://github.com/chodorowicz/ts-debounce).
 
